@@ -43,9 +43,9 @@
     </license>
   </licenses>
   <scm>
-    <url>http://github.com/webjars/layout</url>
-    <connection>scm:git:https://github.com/webjars/layout.git</connection>
-    <developerConnection>scm:git:https://github.com/webjars/layout.git</developerConnection>
+    <url>http://github.com/webjars/jqueryui-layout</url>
+    <connection>scm:git:https://github.com/webjars/jqueryui-layout.git</connection>
+    <developerConnection>scm:git:https://github.com/webjars/jqueryui-layout.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
   <build>
