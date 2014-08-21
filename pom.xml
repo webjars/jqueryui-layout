@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
@@ -12,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>jqueryui-layout</artifactId>
-    <version>1.4.0-SNAPSHOT</version>
+    <version>1.4.0</version>
     <name>JQueryUI Layout</name>
     <description>WebJar for JQuery UI Layout plugin</description>
     <url>http://webjars.org</url>
@@ -63,7 +62,7 @@
         <url>http://github.com/webjars/jqueryui-layout</url>
         <connection>scm:git:https://github.com/webjars/jqueryui-layout.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/jqueryui-layout.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>jqueryui-layout-1.4.0</tag>
     </scm>
 
     <build>
@@ -82,7 +81,7 @@
                                 <get src="${upstream.url}" dest="${project.build.directory}/${project.artifactId}.zip" />
                                 <unzip src="${project.build.directory}/${project.artifactId}.zip" dest="${workDir}" />
                                 <copy verbose="true" todir="${destDir}">
-                                    <fileset dir="${workDir}/layout-${upstream.version}/source/stable"/>
+                                    <fileset dir="${workDir}/layout-${upstream.version}/source/stable" />
                                 </copy>
                             </target>
                         </configuration>
